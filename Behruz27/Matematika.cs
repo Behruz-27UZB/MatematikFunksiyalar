@@ -82,6 +82,29 @@ namespace Behruz27
             }
             Console.WriteLine(c);
         }
+        public static void IktaSonUstidaAmallar(int BirinchiSon,char Ishora, int IkkinchiSon)
+        {
+           if(Ishora == '+')
+           {
+                Console.WriteLine(BirinchiSon  + " " + Ishora + " " +
+                    IkkinchiSon + " = " + (BirinchiSon + IkkinchiSon) );
+           }
+           else if (Ishora == '-')
+           {
+                Console.WriteLine(BirinchiSon + " " + Ishora + " " +
+                    IkkinchiSon + " = " + (BirinchiSon - IkkinchiSon));
+           }
+           else if (Ishora == '*')
+           {
+                Console.WriteLine(BirinchiSon + " " + Ishora + " " +
+                    IkkinchiSon + " = " + (BirinchiSon * IkkinchiSon));
+           }
+           else if (Ishora == '/')
+           {
+                Console.WriteLine(BirinchiSon + " " + Ishora + " " +
+                    IkkinchiSon + " = " + (BirinchiSon / IkkinchiSon));
+           }
+        }
     }
 
     
